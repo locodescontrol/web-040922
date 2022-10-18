@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- 
+██╗░░░░░░█████╗░░█████╗░░█████╗░██████╗░███████╗░██████╗░█████╗░░█████╗░███╗░░██╗████████╗██████╗░░█████╗░██╗░░░░░
+██║░░░░░██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗████╗░██║╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
+██║░░░░░██║░░██║██║░░╚═╝██║░░██║██║░░██║█████╗░░╚█████╗░██║░░╚═╝██║░░██║██╔██╗██║░░░██║░░░██████╔╝██║░░██║██║░░░░░
+██║░░░░░██║░░██║██║░░██╗██║░░██║██║░░██║██╔══╝░░░╚═══██╗██║░░██╗██║░░██║██║╚████║░░░██║░░░██╔══██╗██║░░██║██║░░░░░
+███████╗╚█████╔╝╚█████╔╝╚█████╔╝██████╔╝███████╗██████╔╝╚█████╔╝╚█████╔╝██║░╚███║░░░██║░░░██║░░██║╚█████╔╝███████╗
+╚══════╝░╚════╝░░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝ -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loco_descontrol | Principal </title>
+  <link rel="shortcut icon" href="/img/brand.png">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="loader_bg">
+    <div class="loader"> <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+      <span class="sr-only">Cargan..</span>
+    </div>
+  </div>
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+  <div class="container">
+    <nav class="nav-main">
+      <a href="https://locodescontrol.xyz"><img src="img/brand.png" class="logomostre"></a>
+      <ul class="nav-menu" <li>
+        <a href="">loco_descontrol</a>
+        <li class="">
+          <a href="http://locodescontrol.xyz/Descargas">Descargas <i class="fa fa-download"></i></a>
+          <a href="http://locodescontrol.xyz/Correo">Enviar correo <i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a id="opens">Estadísticas <i class="fa-solid fa-arrow-trend-up"></i></a>
+        </li>
+        <li class="extra">
+          <h2>Contactos</h2>
+        </li>
+        <li class="extra">
+          <a href="https://github.com/locodescontrol">GitHub <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="extra">
+          <a href="https://twitter.com/CrazyFac3A">Twitter <i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="extra">
+          <a href="www.instagram.com/loco_descontrol/">Instagram <i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="extra">
+          <a href="http://locodescontrol.xyz/Discord">Discord <i class="fa-brands fa-discord"></i></a>
+        </li>
+        <li class="extra">
+          
+        </li>
+      </ul>
+      <ul class=" nav-menu-right">
+      </ul>
+    </nav>
+    <hr>
+    <header class="showcase">
+      <h2>¿Quien soy?</h2>
+      <button id="open">
+        Hacer Click
+      </button>
+      <div id="modal_container" class="modal-container">
+        <div class="modal">
+          <h1>Quien soy</h1>
+          <p>
+            Me presento me llamo Christofer soy alguienn normal como todos los demàs con metas y fracasos, intento
+            aprender y hacer cosas que me gustan como esta misma página y lo que esta en página todo lo que hago
+            es por diversión.
+          <p>ヽ(•‿•)ノ</p>
+          <button id="close">Cerrar <i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </header>
+    <section id="Cartas-1">
+      <div class="news-cards">
+        <div class="box-shadowmostre">
+          <img src=" img/github.jpg" />
+          <h3>Github</h3>
+          <p>Mi github personal donde subo mis codijos y futuros protectos.</p>
+          <a href="https://github.com/locodescontrol">Más información <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div class="box-shadowmostre">
+          <img src="https://pbs.twimg.com/media/FaeByJEX0AUDUCz?format=jpg&name=900x900"
+            alt="https://twitter.com/CrazyFac3A" />
+          <h3>Dibujos</h3>
+          <p>algunas veces hago dibujos,he hecho en papel y en dijitales.
+          </p>
+          <a href="https://twitter.com/CrazyFac3A">Más información <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div class="box-shadowmostre">
+          <img src="img/codijo.jpg" />
+          <h3>Programación</h3>
+          <p>programo por diversion y porque me gusta, lo hago como pasa tiempo.
+          </p>
+          <a href="https://github.com/locodescontrol" target="_blank">Más información <i
+              class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div class="box-shadowmostre">
+          <img src="img/paginas.png" />
+          <h3>Páginas</h3>
+          <p>he aprendido y he creado páginas
+            ha mi me gustan mucho.
+          </p>
+          <a href="#footers">Más información <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <div class="twittersmos">
+      <a class="twitter-timeline" data-lang="es" data-width="700" data-height="350" data-theme="dark"
+        href="https://twitter.com/CrazyFac3A?ref_src=twsrc%5Etfw">Cargando...</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <section id="Baner-1">
+      <section class="cards-banner-one">
+        <div class="content">
+          <h2>Aprendiendo...</h2>
+          <p>se que no son las mejores páginas pero estoy aprendiendo poco a poco. ☺</p>
+          <a href="" class="btn">Más información <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+      <section id="Cartas-2">
+        <div class="news-cards">
+          <div class="box-shadowmostre">
+            <img src="img/locoicon.png" />
+            <h3>Relleno</h3>
+            <p>aqui no supé que poner xds</p>
+            <p><i class="fa-solid fa-ghost"></i></p>
+            <a href="">Más información <i class="fas fa-angle-double-right"></i></a>
+          </div>
+          <div class="box-shadowmostre">
+            <img src="img/web01.png" />
+            <h3>Mi primera página</h3>
+            <p>esta algo simple para ser la primera esta bien</p>
+            <p><i class="fa-solid fa-ghost"></i></p>
+            <a href="http://locodescontrol.xyz/Error">Más información <i class="fas fa-angle-double-right"></i></a>
+          </div>
+          <div class="box-shadowmostre">
+            <img src=" img/firmaweb.png" />
+            <h3>Firma de Programador</h3>
+            <p>cual esta incluida en todas mis codigos.
+            </p>
+            <p><i class="fa-solid fa-ghost"></i></p>
+            <a href="http://locodescontrol.xyz/Error">Más información <i class="fas fa-angle-double-right"></i></a>
+          </div>
+          <div class="box-shadowmostre">
+            <img src="img/loco.png" />
+            <h3>Esta página</h3>
+            <p>la hago con el puro fin de aprender y diversion</p>
+            <p>.</p>
+            <a href="http://locodescontrol.xyz/">Más información <i class="fas fa-angle-double-right"></i></a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="Baner-2">
+      <section class="cards-banner-two">
+        <div class="content">
+          <h2>Portafolio</h2>
+          <p>esta página puede ser considerada como mi portafolio aun alguna veces los actualizo</p>
+          <a href="" class="btn">Más información <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+    </section>
+    <section id="Redes">
+      <section class="social">
+        <p class="contactos">Contactos</p>
+        <p class="github">Github</p>
+        <div class="links">
+          <a href="https://twitter.com/CrazyFac3A" class="redes1"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/locodescontrol"><i class="fab fa-github"></i></a>
+          <a href="www.instagram.com/loco_descontrol/" class="redes1"><i class="fab fa-instagram"></i></a>
+          <a href="http://locodescontrol.xyz/Correo" class="redes1"><i class="fa fa-envelope"
+              aria-hidden="true"></i></a>
+          <a href="http://locodescontrol.xyz/Discord" target="_blank" class="redes1"><i
+              class="fa-brands fa-discord"></i></a>
+        </div>
+      </section>
+    </section>
+  </div>
+  <section id="footers">
+    <div class="footer-links">
+      <div class="footer-container">
+
+        <ul>
+          <li>
+            <h3>Otras paginas</h3>
+          </li>
+          <li>
+            <a href="https://locodescontrol.xyz">Esta Pagina</a>
+          </li>
+          <li>
+            <a href="https://locodescontrol.xyz/Error">Web 01</a>
+          </li>
+          <li>
+            <a href="https://locodescontrol.xyz/Error">Firma Programador</a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <h3></h3>
+          </li>
+          <li>
+            <a href="" target="_blank"></a>
+          </li>
+          <li>
+            <a href="" target="_blank"></a>
+          </li>
+          <li>
+            <a href="" target="_blank"></a>
+          </li>
+          <li>
+            <a href="" target="_blank"></a>
+          </li>
+          <li>
+            <a href="" target="_blank"></a>
+          </li>
+          <li>
+            <a href="" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="modal_containers" class="modal-containers">
+      <div class="modals">
+        <h1 class="ventanas">🏆 Estadísticas 🏆</h1>
+        <a href="https://github.com/locodescontrol" target="_blank">
+          <p>
+            <img class="estadisticas"
+              src="https://github-readme-stats.vercel.app/api?username=locodescontrol&show_icons=true&theme=radical&locale=es"
+              width="350px">
+            <img class="estadisticas"
+              src="https://github-readme-streak-stats.herokuapp.com?user=locodescontrol&theme=radical&locale=es"
+              width="350px">
+            <img class="estadisticas"
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=locodescontrol&langs_count=5&theme=radical&locale=es"
+              width="400px">
+
+          </p>
+        </a>
+        <button id="closes"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <h3>Página creada con fines de aprendizaje</h3>
+  </footer>
+  <script src=" js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/plugin.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/c53d0736b8.js" crossorigin="anonymous"></script>
+</body>
+<!-- 
+██╗░░░░░░█████╗░░█████╗░░█████╗░██████╗░███████╗░██████╗░█████╗░░█████╗░███╗░░██╗████████╗██████╗░░█████╗░██╗░░░░░
+██║░░░░░██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗████╗░██║╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░
+██║░░░░░██║░░██║██║░░╚═╝██║░░██║██║░░██║█████╗░░╚█████╗░██║░░╚═╝██║░░██║██╔██╗██║░░░██║░░░██████╔╝██║░░██║██║░░░░░
+██║░░░░░██║░░██║██║░░██╗██║░░██║██║░░██║██╔══╝░░░╚═══██╗██║░░██╗██║░░██║██║╚████║░░░██║░░░██╔══██╗██║░░██║██║░░░░░
+███████╗╚█████╔╝╚█████╔╝╚█████╔╝██████╔╝███████╗██████╔╝╚█████╔╝╚█████╔╝██║░╚███║░░░██║░░░██║░░██║╚█████╔╝███████╗
+╚══════╝░╚════╝░░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚══════╝ -->
+
+</html>
